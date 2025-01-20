@@ -70,7 +70,7 @@ contract Mirrortable is Ownable {
     // Constructor
     // --------------------------------
 
-    constructor() {}
+    constructor() Ownable(msg.sender) {}
 
     // --------------------------------
     // Admin / Owner Functions
